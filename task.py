@@ -191,14 +191,13 @@ class TaskManager:
 
 
     def calculate_priorities(self, weights=None):
-        """Calculate priority score for all tasks."""
         weights = weights or {"urgency": 0.4, "importance": 0.4, "effort": 0.2}
         today = date.today()
 
         for task in self.tasks:
 
             if task.due_date:
-                days_until_due = (datetime.fromisoformat(task.due_date).date() - today).days
+                days_until_due = (datetime.fromisoformat(task   .due_date).date() - today).days
                 urgency_score = max(0, 10 - days_until_due)
             else:
                 urgency_score = 0
@@ -269,13 +268,6 @@ class TaskManager:
         return schedule
 
     def generate_weekly_schedule(self, days_available, decay_per_day=0.1):
-        """
-        days_available: dict {"YYYY-MM-DD": [(start,end), ...], ...}
-
-        Weekly window: today -> today+6 (7 days, inclusive).
-        Returns dict for ALL 7 days (even if empty).
-        Non-overlapping schedule (real timetable).
-        """
         weekly_schedule = {}
         today = date.today()
         end_day = today + timedelta(days=6)

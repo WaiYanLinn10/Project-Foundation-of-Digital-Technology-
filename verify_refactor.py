@@ -89,3 +89,7 @@ def test_backend():
     print("✓ Task deletion verified")
 
     print("\nALL EXTENDED BACKEND TESTS PASSED!")
+
+if __name__ == "__main__":
+    test_backend()
+

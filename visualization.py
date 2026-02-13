@@ -11,7 +11,7 @@ def get_daily_availability():
     if raw:
         for part in [p.strip() for p in raw.split(",") if p.strip()]:
             if "-" not in part:
-                print(f"⚠ Invalid format '{part}' (use 9-12)")
+                print(f" Invalid format '{part}' (use 9-12)")
                 continue
 
             try:
@@ -25,7 +25,7 @@ def get_daily_availability():
                 if start < end:
                     unavailable.append((start, end))
             except ValueError:
-                print(f"⚠ Invalid numbers in '{part}'")
+                print(f" Invalid numbers in '{part}'")
 
 
     unavailable.sort()

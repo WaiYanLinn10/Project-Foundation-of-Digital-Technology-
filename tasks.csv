@@ -1,16 +1,5 @@
 task_name,category,estimated_pomodoros,completed_pomodoros,status,start_date,due_date,end_date,dependencies
-Math Revision,exam,6,6,completed,2026-02-10,2026-02-18,2026-02-12,
-Essay Draft,assignment,5,2,in progress,2026-02-09,2026-02-17,,
-Research Reading,reading,4,0,not started,2026-02-11,2026-02-20,,
-Python Project,assignment,8,4,in progress,2026-02-08,2026-02-22,,
-Statistics Practice,study,5,1,in progress,2026-02-12,2026-02-19,,
-Weekly Planning,other,2,1,in progress,2026-02-07,2026-02-16,,
-Presentation Slides,assignment,3,3,completed,2026-02-12,2026-02-21,2026-02-12,Research Reading
-Mock Exam Paper,exam,4,0,not started,2026-02-13,2026-02-23,,
-Read Chapter 6,reading,3,0,not started,2026-02-14,2026-02-24,,
-Group Project Part 1,assignment,6,2,in progress,2026-02-10,2026-02-25,,
-Group Project Part 2,assignment,5,0,not started,2026-02-15,2026-02-27,,Group Project Part 1
-Flashcards Review,study,3,1,in progress,2026-02-11,2026-02-18,,
-Portfolio Update,other,2,0,not started,2026-02-09,2026-02-26,,
-Algorithm Practice,study,4,0,not started,2026-02-14,2026-02-21,,
-Database Design,assignment,5,2,in progress,2026-02-12,2026-02-23,,
+Math Revision,exam,3,1,in progress,2026-02-13,2026-02-16,,
+Essay Draft,assignment,2,1,in progress,2026-02-13,2026-02-15,,
+Research Reading,reading,4,0,not started,2026-02-13,2026-02-18,,
+General Study,study,1,0,not started,2026-02-13,2026-02-14,,

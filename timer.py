@@ -1,8 +1,8 @@
 import time
 
 class PomodoroTimer:
-    WORK_TIME = 1 * 60
-    BREAK_TIME = 1 * 60
+    WORK_TIME = 25 * 60
+    BREAK_TIME = 25 * 60
 
     def __init__(self):
         self.running = False
@@ -13,7 +13,7 @@ class PomodoroTimer:
             minutes, secs = divmod(seconds, 60)
             print(f"{minutes:02d}:{secs:02d}", end="\r")
             time.sleep(1)
-            seconds -= 30
+            seconds -= 1
 
     def start(self):
         self.running = True
